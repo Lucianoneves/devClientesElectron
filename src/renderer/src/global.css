@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  overflow: hidden;
+}
+
+@keyframes sidebar-in {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--radix-collapsible-content-width);
+  }
+}
+
+@keyframes sidebar-out {
+  from {
+    width: var(--radix-collapsible-content-width);
+  }
+  to {
+    width: 0;
+  }
+}
