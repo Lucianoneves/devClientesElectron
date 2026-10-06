@@ -1,10 +1,14 @@
 {
   "name": "devclientes",
   "productName": "devclientes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sistema de gerenciamento de clientes",
   "main": "./out/main/index.js",
   "author": "Luciano Neves",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucianoneves/devClientesElectron.git"
+  },
   "homepage": "https://electron-vite.org",
   "scripts": {
     "format": "prettier --write .",
