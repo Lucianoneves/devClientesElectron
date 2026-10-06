@@ -16,7 +16,12 @@ export default function About() {
       <p>
         Projeto criado no curso <b>@luciano</b>
       </p>
-      <p>Versão atual do projeto: {!isFetching && data}</p>
+      <p className="mt-4 max-w-xl text-slate-300">
+        O Electron deixa este projeto funcionar como um programa de computador, com janela própria.
+        A tela continua em React, e o Electron grava os clientes neste computador, mostra o ícone na
+        bandeja e responde a atalhos do teclado.
+      </p>
+      <p className="mt-4">Versão atual do projeto: {!isFetching && data}</p>
     </div>
   )
 }
